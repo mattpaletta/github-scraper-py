@@ -2,15 +2,15 @@
 
 # Usage
 ```
-python3 -m scrapper --output output.csv --repo repo.xt
+python3 -m scraper
 ```
 
 ## Runtime Parameters
 ```
 limit: Numerical limit to limit the number of users fetched
 user: Github username, otherwise you will be prompted at runtime
-output: Output CSV
-repo: Repo file (see below)
+output: Output CSV (defaults to output.csv)
+repo: Repo file (see below) (defaults to repo.txt)
 ```
 
 ### Creating the Repository file
