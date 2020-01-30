@@ -1,0 +1,17 @@
+main:
+  limit:
+    required: False
+    type: "int"
+    help: "Limit the number of users fetched, limit -1 for no limit"
+    default: -1
+  user:
+    required: False
+    help: "Github Username"
+  output:
+    required: False
+    help: "I/O csv filename"
+    default: "output.csv"
+  repo:
+    required: False
+    help: "Repository file (.txt)"
+    default: "repo.txt"
